@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #E8E8E8;
+}
+
+@font-face {
+    font-family: "Mi fuente";
+    src: url('./myraidpro/Myriad\ Pro\ Bold.ttf');
+}
+
+@font-face {
+    font-family: "Mi fuente regular";
+    src: url('./myraidpro/Myriad\ Pro\ Regular.ttf');
+}
+
+.header__nav {
+    background-color: #151313;
+    height: 110px;
+    .ul__img {
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        margin: 10px 170px 0px 130px;
+        cursor: pointer;
+    }
+    .nav__ul {
+        height: 110px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;    
+        list-style: none;   
+        flex-grow: 1;
+        .ul__li {
+            font-family: "Mi fuente regular";
+            border-right: 2px solid #E8E8E8;
+            flex-basis: 145px;
+            height: 23px;
+            text-align: center;
+            .ul__li__a {
+                font-size: 1.2em;
+                text-decoration: none;
+                color: #FCF9F9;
+                cursor: pointer;
+            }
+            .ul__li__a:hover {
+                color: #FFF25F;
+                transition: 1.1s;
+            }   
+        }
+        .ul__li_none {
+            font-family: "Mi fuente regular";
+            flex-basis: 145px;
+            height: 23px;
+            text-align: center;
+            list-style: none;
+            .ul__li__a_none {
+                font-size: 1.2em;
+                text-decoration: none;
+                color: #FCF9F9;
+                cursor: pointer;
+            }
+            .ul__li__a_none:hover {
+                color: #FFF25F;
+                transition: 1.1s;
+            }
+        
+        }
+        
+    }
+}
+
