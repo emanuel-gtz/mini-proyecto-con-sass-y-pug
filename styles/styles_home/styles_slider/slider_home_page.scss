@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Mi fuente";
+    src: url('./myraidpro/Myriad\ Pro\ Bold.ttf');
+}
+
+@font-face {
+    font-family: "Mi fuente regular";
+    src: url('./myraidpro/Myriad\ Pro\ Regular.ttf');
+}
+
+.home_slider {
+    padding: 0;
+    margin: 0;
+    .slide {
+        width: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0;
+        .car-car {
+            color: #FAFAFA;
+            font-size: 2.8em;
+            position: absolute;
+            top: 112px;
+            left: 110px;
+            display: flex;
+            font-family: "Mi fuente";
+            width: 30%;
+            height: 50px;
+            justify-content: space-around;
+            align-items: center;  
+        }
+        .look_more {
+            border: 1px solid #EEEAE2;
+            color: #FAFAFA;
+            position: absolute;
+            bottom: 95px;
+            left: 145px;
+            font-size: 1.5em;
+            font-weight: 500;
+            width: 10%;
+            height: 35px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Mi fuente regular";
+
+        }
+        .look_more_two {
+            border: 1px solid #EEEAE2;
+            color: #FAFAFA;
+            position: absolute;
+            bottom: 50px;
+            left: 145px;
+            font-size: 1.5em;
+            font-weight: 500;
+            width: 10%;
+            height: 35px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Mi fuente regular";
+        }
+        #auto {
+            width: 100%;
+        }
+    }    
+    
+}
