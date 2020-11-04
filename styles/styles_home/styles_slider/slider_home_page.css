@@ -60,6 +60,14 @@
   font-family: "Mi fuente regular";
 }
 
+.home_slider .slide .look_more:hover {
+  color: #111111;
+  background-color: #FAFAFA;
+  -webkit-transition: .9s;
+  transition: .9s;
+  cursor: pointer;
+}
+
 .home_slider .slide .look_more_two {
   border: 1px solid #EEEAE2;
   color: #FAFAFA;
@@ -79,6 +87,14 @@
       -ms-flex-align: center;
           align-items: center;
   font-family: "Mi fuente regular";
+}
+
+.home_slider .slide .look_more_two:hover {
+  color: #111111;
+  background-color: #FAFAFA;
+  -webkit-transition: .9s;
+  transition: .9s;
+  cursor: pointer;
 }
 
 .home_slider .slide #auto {

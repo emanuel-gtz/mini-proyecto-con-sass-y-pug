@@ -43,8 +43,14 @@
             justify-content: space-around;
             align-items: center;
             font-family: "Mi fuente regular";
-
         }
+        .look_more:hover {
+            color: #111111;
+            background-color: #FAFAFA;
+            transition: .9s;
+            cursor: pointer;
+        
+        } 
         .look_more_two {
             border: 1px solid #EEEAE2;
             color: #FAFAFA;
@@ -60,6 +66,13 @@
             align-items: center;
             font-family: "Mi fuente regular";
         }
+        .look_more_two:hover {
+            color: #111111;
+            background-color: #FAFAFA;
+            transition: .9s;
+            cursor: pointer;
+        }
+        
         #auto {
             width: 100%;
         }
